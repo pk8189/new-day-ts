@@ -1,0 +1,9 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testPathIgnorePatterns": ["/dist/"],
+  "moduleNameMapper": {
+    "^new-day-ts$": "<rootDir>/src/index.ts",
+    "^new-day-ts/(.*)$": "<rootDir>/src/$1"
+  }
+}
